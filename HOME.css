@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    align-items: center;
+   
+}
+
+.imagediv {
+    flex: 0 0 auto;
+    width: auto;
+   
+}
+
+
+h1 {
+    color: rgb(114, 55, 232);
+    font-size: 50px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 0;
+  
+}
+
+p {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    position: relative;
+    top: 18px;
+    opacity: 0.8;
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.imagediv{
+position: relative;
+top: 100px;
+left: 500px;
+    border-radius: 10px;
+    height: 300px;
+    z-index: 1;
+}
+.imagediv img{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.herodiv{
+
+    border: 2px solid black;
+}
+
+    .textdiv {
+        position: relative;
+        top: 100px;
+        flex: 1;
+        border: none;
+        margin-bottom: 0;
+    }
