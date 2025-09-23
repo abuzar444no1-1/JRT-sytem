@@ -9,7 +9,7 @@
     
 :root {
     --color-primary: #1F456F;     
-    --color-secondary: #D44242;    
+    --color-secondary: #ff0000;    
     --color-text: #444;            
     --color-bg-light: #F7F7F7;   
     --color-bg-white: #FFFFFF;
@@ -97,6 +97,7 @@ h4 {
     background-color: var(--color-bg-light); 
     border-radius: var(--border-radius-card);
     padding: 40px;
+    color: var(--color-text);
 }
 
 .atex {
@@ -246,7 +247,7 @@ h4 {
 }
 
 .lcrd h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin: 15px 15px 5px 15px;
     display: flex;
     justify-content: space-between;
@@ -263,6 +264,11 @@ h4 {
     color: #888;
     font-size: 0.9rem;
     margin: 0 15px 15px 15px;
+}
+.lcrd p:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+    cursor: pointer;
 }
   </style>
 </head>
@@ -283,7 +289,7 @@ h4 {
     <div class="atex">
       <h4>About Us</h4>
       <h2>Who We Are?</h2>
-      <p>Lead College is a leading Registered Training Provider with multiple courses designed to help students gain qualifications, skills, and knowledge in areas that match their talents and desires.</p>
+      <p class="">Lead College is a leading Registered Training Provider with multiple courses designed to help students gain qualifications, skills, and knowledge in areas that match their talents and desires.</p>
       <p>We offer courses in fields like Automotive, IT, Health, Education, Construction, and more.</p>
       <a href="#" class="btnr">Read More</a>
     </div>
@@ -368,4 +374,5 @@ h4 {
   </section>
 
 </body>
+<script src="homw.js"></script>
 </html>
